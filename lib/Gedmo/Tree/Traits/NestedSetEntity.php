@@ -14,9 +14,9 @@ use Gedmo\Mapping\Annotation as Gedmo;
 trait NestedSetEntity
 {
     /**
-     * @var integer
+     * @var string
      * @Gedmo\TreeRoot
-     * @ORM\Column(name="root", type="integer", nullable=true)
+     * @ORM\Column(name="root", type="string", nullable=true)
      */
     private $root;
 
